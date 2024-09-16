@@ -1,5 +1,5 @@
 const readlineSync = require("readline-sync");
-require('dotenv').config()
+require("dotenv").config();
 const db = require("./database");
 const { seedProducts } = require("./controllers/productController");
 const {
